@@ -41,13 +41,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-padding: 0 20px;
+  padding: 0 20px;
 }
 
 
 /* logo */
 .menu-titulo {
+  background-image: linear-gradient(grey, whitesmoke);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font: 800 20px/1 var(--font-display, sans-serif);
   letter-spacing: 0.22em;
   color: var(--fg);
@@ -142,7 +144,7 @@ padding: 0 20px;
 
 /* estilizaçção do card */
 .card {
-    background: #111;
+    background: #000000;
     border-radius: 20px;
     overflow: hidden;
     text-align: center;
